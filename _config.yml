@@ -89,7 +89,7 @@ backup:
   message: backup my blog of https://blog.nekoremy.men/
   repository:
     # github: https://github.com/honjun/honjun.github.io.git,backup
-    github: https://github.com/nekoremy/nekoremy.github.io.git,backup
+    github: git@github.com:nekoremy/nekoremy.github.io.git,backup
 
 #RSS
 feed:
