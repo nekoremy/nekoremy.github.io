@@ -11,8 +11,8 @@ menu:
     gallery: /gallery
 
 # favicon & logo
-favicon: /img/favicon.ico
-logo: /img/logo.png
+favicon: https://cdn.jsdelivr.net/gh/nekoremy/cdn@latest/favicon.ico
+logo: https://cdn.jsdelivr.net/gh/nekoremy/cdn@latest/logo.png
 
 # background_image
 # mask_alpha: 0 ~ 1
@@ -24,7 +24,7 @@ mask_alpha: 0.4
 background_image:
     mode: normal
     normal_url: https://www.addesp.com/api/image/wallpaper/acg?type=image
-    random_you_max: 110 
+    random_you_max: 110
     random_you_url: https://sariay.github.io/Random-img/
     random_other_url: https://api.berryapi.net/?service=App.Bing.Images&day=-0
 
@@ -42,7 +42,7 @@ timejs:
 # animation: spinner | transition | cyclic
 preloader:
     enable: true
-    animation: spinner
+    animation: cyclic
 
 #########################################################################################################
 # 003-INDEX
