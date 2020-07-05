@@ -99,7 +99,9 @@ theme: Annie
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:nekoremy/nekoremy.github.io.git
+  repo: 
+    github: git@github.com:nekoremy/nekoremy.github.io.git
+    coding: git@e.coding.net:nekoremy/nekoremy/nekoremy.git
   branch: master
 
 search: #站内搜索功能
