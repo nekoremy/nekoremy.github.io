@@ -7,8 +7,9 @@ type: about
 
 ## Blog ##
 
-欢迎来到我的博客，我是 [NEKORemy](https://github.com/nekoremy) 。本博客主要会发布一些个人随笔
+欢迎来到我的博客，我是 [**NEKORemy**](https://github.com/nekoremy) 。本博客主要发布一些个人随笔
 
 ## Contact ##
 
-E-Mail:neko.remy@outlook.com
+E-Mail: [**neko.remy@outlook.com**](mailto:neko.remy@outlook.com)
+Github: [**nekoremy**](https://github.com/NEKOREMY)
