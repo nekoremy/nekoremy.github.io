@@ -5,4 +5,10 @@ layout: about
 type: about
 ---
 
-## <center>博主太懒，这里还什么的都没有写呢</center> ##
+## Blog ##
+
+欢迎来到我的博客，我是 [NEKORemy](https://github.com/nekoremy) 。本博客主要会发布一些个人随笔
+
+## Contact ##
+
+E-Mail:neko.remy@outlook.com
