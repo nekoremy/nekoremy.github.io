@@ -2,7 +2,7 @@
 title: 个人常用 vscode 插件及配置记录
 date:
 categories: 开发工具
-cover: https://wx1.sinaimg.cn/large/008a86Smgy1ggk6grf9dlj30xp0kpdpv.jpg
+cover: https://img.vim-cn.com/4c/934f740f7660b7b7fb7b177bedf788413def4d.jpg
 tags:
 
     - vscode
@@ -17,13 +17,13 @@ tags:
 
 ## Horizon Theme ##
 
-![0-1](https://wx4.sinaimg.cn/large/008a86Smgy1ggk5atq9jtj318k0u04dz.jpg)
+![0-1](https://img.vim-cn.com/52/fb71d589d3e9d6e24ba6ef44423b7b6ed2c3c8.png)
 
 一个我比较喜欢的编辑器主题
 
 ## Material Icon Theme ##
 
-![0-2](https://wx2.sinaimg.cn/large/008a86Smgy1ggk5r61ttuj30u02cbaki.jpg)
+![0-2](https://img.vim-cn.com/e1/5cdfd54abb142453f151072231e9f9c23feb3d.png)
 
 一个我比较喜欢的图标主题
 
