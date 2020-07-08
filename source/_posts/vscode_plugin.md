@@ -1,5 +1,5 @@
 ---
-title: 个人常用vscode插件及配置记录
+title: 个人常用 vscode 插件及配置记录
 date:
 categories: 开发工具
 cover: https://wx1.sinaimg.cn/large/008a86Smgy1ggk6grf9dlj30xp0kpdpv.jpg
@@ -9,7 +9,7 @@ tags:
 
 ---
 
-本文主要内容是我的vscode插件及配置的记录，无任何含金量。这篇博文主要是为了我今后重装系统后可以尽快恢复vscode环境而准备的。喜欢的可以参考一下喵
+本文主要内容是我的 vscode 插件及配置的记录，无任何含金量。这篇博文主要是为了我今后重装系统后可以尽快恢复 vscode 环境而准备的。喜欢的可以参考一下喵
 
 ## Chinese (Simplified) Language Pack for Visual Studio Code ##
 
@@ -29,13 +29,13 @@ tags:
 
 ## markdownlint ##
 
-用于检查Markdown代码是否符合规范，有利于防止语法错误与维持代码风格的统一
+用于检查 Markdown 代码是否符合规范，有利于防止语法错误与维持代码风格的统一
 
 ## [markdown-formatter](https://github.com/sumnow/markdown-formatter/blob/master/README_CN.md) ##
 
-一个可以提高Markdown写作效率的工具
+一个可以提高 Markdown 写作效率的工具
 
-## 用于编辑Markdown的配置 ##
+## 用于编辑 Markdown 的配置 ##
 
 ``` json
     "[markdown]": {
