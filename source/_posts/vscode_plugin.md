@@ -1,6 +1,7 @@
 ---
 title: 个人常用 vscode 插件及配置记录
-date:
+date: 2020-07-08 23:12:54
+updated: 2020-07-09 04:11:40
 categories: 开发工具
 cover: https://img.vim-cn.com/4c/934f740f7660b7b7fb7b177bedf788413def4d.jpg
 tags:
@@ -10,6 +11,8 @@ tags:
 ---
 
 本文主要内容是我的 vscode 插件及配置的记录，无任何含金量。这篇博文主要是为了我今后重装系统后可以尽快恢复 vscode 环境而准备的。喜欢的可以参考一下喵
+
+页头背景图片出自 pixiv pid_82262933，插画师为 [cierra](https://marrybellis.wixsite.com/ringlet-jp/about) 姐姐
 
 ## Chinese (Simplified) Language Pack for Visual Studio Code ##
 
