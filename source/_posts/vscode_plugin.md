@@ -12,8 +12,6 @@ tags:
 
 本文主要内容是我的 vscode 插件及配置的记录，无任何含金量。这篇博文主要是为了我今后重装系统后可以尽快恢复 vscode 环境而准备的。喜欢的可以参考一下喵
 
-页头背景图片出自 pixiv pid_82262933，插画师为 [cierra](https://marrybellis.wixsite.com/ringlet-jp/about) 姐姐
-
 ## Chinese (Simplified) Language Pack for Visual Studio Code ##
 
 中文语言包插件，不解释
