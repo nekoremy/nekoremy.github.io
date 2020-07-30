@@ -1,0 +1,15 @@
+<footer>
+	<div id="navigation-show">
+		<%- partial('nav') %>
+	</div>
+	<div class="copyright">
+		<p>
+			<% if( theme.since && theme.since < date(new Date(), 'YYYY') ) { %> 
+				&copy;<%= theme.since %> - <%= date(new Date(), 'YYYY') %>, content by <%= theme.author || config.author || config.title %>. 
+			<% } else { %> 
+				&copy;<%= date(new Date(), 'YYYY') %>, content by <%= theme.author || config.author || config.title %>. 
+			<% } %>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>本站所有作品未经特殊声明均采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"> CC BY-NC-SA 4.0 国际许可协议</a>进行许可
+		</p>
+	</div>		
+</footer>

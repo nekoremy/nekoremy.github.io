@@ -168,7 +168,7 @@ socialShare:
 # Check the icon in the page of Icomoon
 social:
 	email:
-        url: mailto:neko.remy@outlook.com
+        url: http://github.com/nekoremy
         icon: <span class="icon-envelope"></span>  
 	github:
         url: http://github.com/nekoremy
