@@ -8,11 +8,11 @@ menu:
     categories: /categories
     tags: /tags
     about: /about
-    gallery: /gallery
+    #gallery: /gallery
 
 # favicon & logo
-favicon: https://cdn.jsdelivr.net/gh/nekoremy/cdn@latest/favicon.ico
-logo: https://cdn.jsdelivr.net/gh/nekoremy/cdn@latest/logo.png
+favicon: https://cdn.jsdelivr.net/gh/nekoremy/cdn@master/favicon-1.ico
+logo: https://cdn.jsdelivr.net/gh/nekoremy/cdn@master/logo.webp
 
 # background_image
 # mask_alpha: 0 ~ 1
@@ -52,7 +52,7 @@ index_style: cart
 
 # index_cart_cover
 cover: /img/cart_cover.jpg
-lazy_image: /img/lazy.gif
+lazy_image: https://cdn.jsdelivr.net/gh/nekoremy/cdn@master/lazy.gif
 
 #########################################################################################################
 # 004-POST
@@ -79,7 +79,7 @@ gitalk:
     hrefTrimend: '#.*$,\\?.*$,index.html$' 
     
 valine: 
-    enable: true
+    enable: false
     appid: 'Ec3YsVUBHXC5DSRHrphHmL9m-MdYXbMMI'
     appkey: 'h1oIMCWXH2KaON7iNA9wRVEB'
     placeholder: no any!
@@ -176,7 +176,7 @@ social:
 
 # copyright  
 since: 2020
-author: NEKORemy
+author: Remy
 
 #########################################################################################################
 # 006-GALLERY PAGE
