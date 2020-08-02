@@ -68,9 +68,9 @@ comment:
     enable: true
 
 gitalk:
-    enable: false
-    clientID: '83a117e23a631f2ccf38' 
-    clientSecret: 'ec9a6679768d1acb188e51864cfe634028a0a910' 
+    enable: true
+    clientID: '8ac4005a0975a8a0040f' 
+    clientSecret: 'bf3d321a2aa25e5f00cf6d88d7574c4aa4b7db7a' 
     repo: nekoremy.github.io
     owner: nekoremy
     admin: nekoremy
@@ -80,8 +80,8 @@ gitalk:
     
 valine: 
     enable: false
-    appid: 'Ec3YsVUBHXC5DSRHrphHmL9m-MdYXbMMI'
-    appkey: 'h1oIMCWXH2KaON7iNA9wRVEB'
+    appid: ''
+    appkey: ''
     placeholder: no any!
     
 livere: 
@@ -91,8 +91,8 @@ livere:
 # post_count
 leancloud_count:
     enable: false
-    appid: 'mI6wEwjTNQYEbHQQrkQ8D6yH-9Nh9j0Va'
-    appkey: 'aHsxAn88T4BjSy4us59tch9R'
+    appid: ''
+    appkey: ''
     serverURLs: 'http'
     like_post:
         enable: true
@@ -114,7 +114,7 @@ cnzz_analytics:
     id:
 
 google_analytics:
-    enable: true
+    enable: false
     id: G-85DDXT8DCP
 
 tencent_analytics:
