@@ -44,8 +44,8 @@
 	
     const CONFIG_LEACLOUD_COUNT = {
       enable: false,
-	  appId: 'mI6wEwjTNQYEbHQQrkQ8D6yH-9Nh9j0Va',
-	  appKey: 'aHsxAn88T4BjSy4us59tch9R',
+	  appId: '',
+	  appKey: '',
 	  serverURLs: 'http' || ' '
     }
   </script>
@@ -156,6 +156,12 @@
 	
 	<div class="nav-footer">
 		<ul id="global-social">
+	
+		<li>
+			<a href="mailto:neko.remy@outlook.com" target="_blank">
+				<span class="icon-envelope"></span>
+			</a>
+		</li>
 	
 		<li>
 			<a href="http://github.com/nekoremy" target="_blank">
@@ -300,11 +306,76 @@
 
 		
 
-			<!-- I don't know !!!-->
-			<div class="config-info">
-				Please check the parameter of <b>comment</b> in config.yml of hexo-theme-Annie!
-			</div>
-			
+			<!-- gitalk comment -->
+			<!-- show gitalk comment -->
+<div id="gitalk-container"></div>
+
+<!-- gitalk`s css & js -->
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<link rel="stylesheet" href="/css/comment.css">
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<script type="text/javascript">
+
+	(function gitalkComment(){
+		//Thanks O-R
+		//https://github.com/gitalk/gitalk/issues/102#issuecomment-382970552
+		//去除尾部匹配正则数组的字符串  
+		//Remove redundant characters
+		String.prototype.trimEnd = function(regStr) {
+			let result = this;
+			if(regStr == undefined || regStr == null || regStr == "") {
+				return result;
+			}
+			let array = regStr.split(',');
+
+			if(array.length > 0) {
+
+				let c = array.shift(), 
+					str = this,
+					i = str.length,
+					rg = new RegExp(c),
+					matchArr = str.match(rg);
+
+				if(matchArr != undefined && matchArr != null && matchArr.length > 0) {
+					let matchStr = matchArr[0].replace(/\\/g, "\\\\").replace(/\*/g, "\\*")
+						.replace(/\+/g, "\\+").replace(/\|/g, "\\|")
+						.replace(/\{/g, "\\{").replace(/\}/g, "\\}")
+						.replace(/\(/g, "\\(").replace(/\)/g, "\\)")
+						.replace(/\^/g, "\\^").replace(/\$/g, "\\$")
+						.replace(/\[/g, "\\[").replace(/\]/g, "\\]")
+						.replace(/\?/g, "\\?").replace(/\,/g, "\\,")
+						.replace(/\./g, "\\.").replace(/\&/g, "\\&");
+					matchStr = matchStr + '$';
+					result = str.replace(new RegExp(matchStr), "");
+				}
+
+				if(array.length > 0) {
+					return result.trimEnd(array.join())
+				} else {
+					return result;
+				}
+			}
+		};
+
+		//Create gitalk
+		let gitalk = new Gitalk({
+			clientID: '8ac4005a0975a8a0040f',
+			clientSecret: 'bf3d321a2aa25e5f00cf6d88d7574c4aa4b7db7a',
+			//id: window.location.pathname,
+			//id: decodeURI(window.location.pathname),
+			//id: (window.location.pathname).split("/").pop().substring(0, 49),
+			id: decodeURI( md5( location.href.trimEnd('#.*$,\\?.*$,index.html$') ) ),
+			repo: 'nekoremy.github.io',
+			owner: 'nekoremy',
+			admin: 'nekoremy',
+			distractionFreeMode: 'true',
+		})
+		gitalk.render('gitalk-container');		
+	})();
+</script>
+
 		
 		
 	
@@ -535,24 +606,6 @@
 	
 	
 	
-	<!-- Google Analytics -->
-	<script type="text/javascript">
-		(function(i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r;
-			i[r] = i[r] || function() {
-				(i[r].q = i[r].q || []).push(arguments)
-			}, i[r].l = 1 * new Date();
-			a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-		ga('create', 'G-85DDXT8DCP', 'auto');
-		ga('send', 'pageview');
-	</script>
-	<!-- End Google Analytics -->
-
 	
 	
  
